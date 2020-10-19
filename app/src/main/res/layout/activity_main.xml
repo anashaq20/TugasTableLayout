@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:stretchColumns="2">
+    <TableRow>
+        <TextView
+            android:layout_width="79dp"
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="Ini Kolom Judul Tabel" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="90dp"
+            android:padding="3dip"
+            android:text="Halo" />
+        <TextView
+            android:layout_width="171dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Hai" />
+        <Button
+            android:text="berhasil"
+            android:textStyle="bold|italic" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="Test"
+            android:gravity="center"/>
+        <TextView
+            android:gravity="start"
+            android:padding="3dip"
+            android:text="Ahmad Nashirul Haq" />
+        <Button
+            android:text="Sukses"
+            android:gravity="end"
+            android:textSize="12sp"/>
+    </TableRow>
+</TableLayout>
